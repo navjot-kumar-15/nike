@@ -15,7 +15,7 @@ const Button = ({
         px-7 gap-2 font-montserrat text-lg py-4 leading-none
         rounded-full
         hover:scale-95
-        transition-all ease-in-out delay-.5
+        transition-all ease-in-out delay-100
         ${
           backgroundColor
             ? `${backgroundColor} ${textColor} ${borderColor}`
