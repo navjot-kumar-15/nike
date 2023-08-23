@@ -56,3 +56,11 @@
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }
 }
+
+/* Respsonsive  */
+@media screen and (max-width: 400px) {
+  .btn {
+    /* min-width: 10vw; */
+    width: 35vw !important;
+  }
+}

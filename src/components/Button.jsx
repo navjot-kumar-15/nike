@@ -16,6 +16,9 @@ const Button = ({
         rounded-full
         hover:scale-95
         transition-all ease-in-out delay-100
+        max-sm:text-[15px]
+        max-sm:w-auto
+        btn
         ${
           backgroundColor
             ? `${backgroundColor} ${textColor} ${borderColor}`
